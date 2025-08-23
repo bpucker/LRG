@@ -1,6 +1,13 @@
 # LRG
 This repository contains the material for the Long Read Genomics course that is scheduled to take place in Prag in early November 2025.
 
+## Topics
+- (1) Sequencing Technologies
+- (2) Plant Genome Sequencing with ONT
+- (3) Generating a Structural & Functional Annotation
+- (4) Read Mapping and Variant Calling
+- (5) Submitting Sequencing Data and Reusing Public Data
+
 
 
 ## References
