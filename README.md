@@ -1,5 +1,5 @@
 # LRG
-Long Read Genomics course materials
+This repository contains the material for the Long Read Genomics course that is scheduled to take place in Prag in early November 2025.
 
 
 
