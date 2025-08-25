@@ -1,5 +1,5 @@
 # LRG
-This repository contains the material for the Long Read Genomics course that is scheduled to take place in Prag in early November 2025.
+This repository contains the material for the Long Read Genomics course that is scheduled to take place in Prague in early November 2025.
 
 ## Topics
 - (1) Sequencing Technologies
