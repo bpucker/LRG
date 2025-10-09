@@ -1,6 +1,9 @@
 # LRG
 This repository contains the material for the Long Read Genomics course that is scheduled to take place in Prague in early November 2025.
 
+## Location
+Please find a map of the campus [here](https://www.czu.cz/en/r-17651-map-od-campus).
+
 ## Topics
 - (1) Sequencing Technologies
 - (2) Plant Genome Sequencing with ONT
