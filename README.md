@@ -1,8 +1,8 @@
 # LRG
-This repository contains the material for the Long Read Genomics course that is scheduled to take place in Prague in early November 2025.
+This repository contains the material for the Long Read Genomics course that is taking place at CZU in Prague in early November 2025.
 
 ## Location
-Please find a map of the campus [here](https://www.czu.cz/en/r-17651-map-od-campus).
+The course takes place in D551 of the MCEVII building. Please find a map of the campus [here](https://www.czu.cz/en/r-17651-map-od-campus).
 
 ## Topics
 - (1) Sequencing Technologies
@@ -11,7 +11,8 @@ Please find a map of the campus [here](https://www.czu.cz/en/r-17651-map-od-camp
 - (4) Read Mapping and Variant Calling
 - (5) Submitting Sequencing Data and Reusing Public Data
 
-
+## Questions
+Please send any questions you might have via email to [Boas Pucker](https://www.izmb.uni-bonn.de/en/pbb/contact).
 
 ## References
 - Pucker B, Irisarri I, de Vries J and Xu B (2022). Plant genome sequence assembly in the era of long reads: Progress, challenges and future directions. Quantitative Plant Biology, 3, E5. doi: [10.1017/qpb.2021.18](https://doi.org/10.1017/qpb.2021.18).
