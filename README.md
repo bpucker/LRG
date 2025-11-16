@@ -1,8 +1,8 @@
 # LRG
-This repository contains the material for the Long Read Genomics course that is taking place at CZU in Prague in early November 2025.
+This repository contains the material for the Long Read Genomics course that took place at CZU in Prague in early November 2025.
 
 ## Location
-The course takes place in D551 of the MCEVII building. Please find a map of the campus [here](https://www.czu.cz/en/r-17651-map-od-campus).
+The course took place in D551 of the MCEVII building (CZU, Prague). Please find a map of the campus [here](https://www.czu.cz/en/r-17651-map-od-campus).
 
 ## Topics
 - (1) Sequencing Technologies
