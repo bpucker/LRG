@@ -4,7 +4,11 @@ This repository contains the material for the Long Read Genomics courses.
 - Second course will take place at University of Thessaly
 
 ## Topics for lectures at University of Thessaly
-- Sequencing technologies, ONT-based plant genomics workflow, structural annotation, functional annotation, data submission
+- Sequencing technologies
+- ONT-based plant genomics workflow
+- Structural annotation
+- Functional annotation
+- Data submission
 
 ## Topics for lectures in Prague
 - (1) Sequencing Technologies
@@ -13,7 +17,7 @@ This repository contains the material for the Long Read Genomics courses.
 - (4) Read Mapping and Variant Calling
 - (5) Submitting Sequencing Data and Reusing Public Data
 
-## Questions
+## Questions or interested in a meeting?
 Please send any questions you might have via email to [Boas Pucker](https://www.izmb.uni-bonn.de/en/pbb/contact).
 
 ## References
