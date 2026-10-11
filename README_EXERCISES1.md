@@ -1,13 +1,14 @@
 # Bachelor Exercises
 
 ## Connect to VM
-
+```
 ssh -i /your/private/key ubuntu@YOUR_IP_GOES_HERE -p YOUR_PORT_GOES_HERE
+```
 
 ## Navigate to folder
-
+```
 cd /vol/data/UAM
-
+```
 
 ## Calculate FASTQ file statistics
 
