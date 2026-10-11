@@ -77,25 +77,28 @@ cd /vol/data/UAM
 ```
 
 ## Run Shasta assembly
-
+```
 shasta \
 --input /vol/data/UAM/ERR3712254.fastq \
 --assemblyDirectory shasta_R9_assembly \
 --config Nanopore-OldGuppy-Sep2020 \
 --threads 16 \
 > /vol/data/UAM/ERR3712254.assembly.doc.txt &
+```
 
 ## Calculate assembly statistics
-
+```
 python3 /vol/data/UAM/contig_stats3.py \
 --in /vol/data/UAM/shasta_R9_assembly/Assembly.fasta
+```
 
 ## Check assembly statistics
-
+```
 cat /vol/data/UAM/shasta_R9_assembly/Assembly.fasta_stats.txt
+```
 
 ## Check assembly completeness with BUSCO
-
+```
 sudo docker run --rm --user root -v /vol/data/:/vol/data/ ezlabgva/busco:v6.1.0_cv2 \
 busco -i /vol/data/UAM/shasta_R9_assembly/Assembly.fasta \
 -l embryophyta_odb12.2 \
@@ -105,10 +108,11 @@ busco -i /vol/data/UAM/shasta_R9_assembly/Assembly.fasta \
 -m genome \
 -f \
 > /vol/data/UAM/Assembly.busco.txt &
+```
 
 ## Check BUSCO results
-
+```
 cat /vol/data/UAM/Assembly.busco.txt
-
+```
 
 
