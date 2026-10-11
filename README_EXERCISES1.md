@@ -11,61 +11,70 @@ cd /vol/data/UAM
 ```
 
 ## Calculate FASTQ file statistics
-
+```
 python3 /vol/data/UAM/FASTQ_stats3.py \
 --in /vol/data/UAM/ERR3712254.fastq.gz
-
+```
 
 ## Conduct long-read mapping
-
+```
 minimap2 -t 10 \
 -a /vol/data/UAM/TAIR10.fa \
 /vol/data/UAM/ERR3712254.fastq.gz \
 > /vol/data/UAM/mapped_reads.sam
+```
 
 ## Convert SAM to BAM and sort by genomic position
-
+```
 samtools view -b /vol/data/UAM/mapped_reads.sam | samtools sort -o /vol/data/UAM/mapped_reads.sorted.bam
+```
 
 ## Index BAM file
-
+```
 samtools index /vol/data/UAM/mapped_reads.sorted.bam
-
+```
 
 ## DOWNLOAD RESULTS FROM VM OR VIA SCIEBO
-
+```
 rsync --append-verify -avzhP \
 -e "ssh -i /homes/bpucker/.ssh/cloud_id -p VM_PORT_GOES_HERE" \
 ubuntu@VM_IP_GOES_HERE:/vol/data/UAM/mapped_reads.sorted.bam \
 /your/local/folder/UAM/
+```
 
+```
 rsync --append-verify -avzhP \
 -e "ssh -i /homes/bpucker/.ssh/cloud_id -p VM_PORT_GOES_HERE" \
 ubuntu@VM_IP_GOES_HERE:/vol/data/UAM/mapped_reads.sorted.bai \
 /your/local/folder/UAM/
+```
 
+```
 rsync --append-verify -avzhP \
 -e "ssh -i /homes/bpucker/.ssh/cloud_id -p VM_PORT_GOES_HERE" \
 ubuntu@VM_IP_GOES_HERE:/vol/data/UAM/TAIR10.fa \
 /your/local/folder/UAM/
+```
 
+```
 rsync --append-verify -avzhP \
 -e "ssh -i /homes/bpucker/.ssh/cloud_id -p VM_PORT_GOES_HERE" \
 ubuntu@VM_IP_GOES_HERE:/vol/data/UAM/araport11.gff \
 /your/local/folder/UAM/
-
+```
 
 
 # Master Exercises
 
 ## Connect to VM
-
+```
 ssh -i /your/private/key ubuntu@YOUR_IP_GOES_HERE -p YOUR_PORT_GOES_HERE
+```
 
 ## Navigate to folder
-
+```
 cd /vol/data/UAM
-
+```
 
 ## Run Shasta assembly
 
