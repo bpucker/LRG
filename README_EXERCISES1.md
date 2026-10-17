@@ -27,7 +27,7 @@ mkdir /vol/data/LRG/USER1
 ```
 minimap2 -t 10 \
 -a /vol/data/LRG/TAIR10.fa \
-/vol/data/LRG/ERR3712254.fastq.gz \
+/vol/data/LRG/ERR3712254.selection.fastq.gz \
 > /vol/data/LRG/USER1/mapped_reads.sam
 ```
 
