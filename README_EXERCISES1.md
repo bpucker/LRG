@@ -73,14 +73,9 @@ ubuntu@VM_IP_GOES_HERE:/vol/data/LRG/USER1/araport11.gff \
 
 # Additional Master Exercises
 
-## Connect to VM
+## Navigate to user folder
 ```
-ssh -i /your/private/key ubuntu@YOUR_IP_GOES_HERE -p YOUR_PORT_GOES_HERE
-```
-
-## Navigate to folder
-```
-cd /vol/data/LRG
+cd /vol/data/LRG/USER1
 ```
 
 ## Run Shasta assembly
