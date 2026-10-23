@@ -1,5 +1,5 @@
 # LRG
-This repository contains the material for the Long Read Genomics courses. These courses are offered during Lecturer Mobilities (Erasmus) at different universities throughout Europe.
+This repository contains the material for the Long Read Genomics courses. These courses are offered during Lecturer Mobilities (Erasmus) at different universities throughout Europe. Interested in having a Long Read Genomics course at your university? Get in touch!
 
 ## History
 - 2026: Autonomous University of Madrid (UAM), Spain
